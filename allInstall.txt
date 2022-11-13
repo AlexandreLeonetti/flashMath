@@ -1,0 +1,776 @@
+    1  cd /home/
+    2  ll
+    3  pwd
+    4  cd ubuntu/
+    5  l
+    6  ll
+    7  l
+    8  pwd
+    9  cd ..
+   10  ll
+   11  cd ubuntu
+   12  pwd
+   13  rm -r ./*
+   14  ll
+   15  cp -rv /media/save/2022BackUpRedOs/home/ubuntu/* ./
+   16  ll
+   17  pwd
+   18  ll
+   19  slblk
+   20  lsblk
+   21  ll
+   22  cd /media/
+   23  ll
+   24  mkdir save
+   25  sudo mkdir save
+   26  ll
+   27  sudo mount /sda4 ./save/
+   28  sudo mount /dev/sda4 ./save/
+   29  ll
+   30  cd save/
+   31  ll
+   32  cd 2022BackUpRedOs/
+   33  ll
+   34  cat .bashrc 
+   35  cp -v /media/save/2022BackUpRedOs/home/ubuntu/.bashrc ./
+   36  cd /etc/apt/sources.list.d/
+   37  ll
+   38  cd ..
+   39  ll
+   40  sudo vim sources.list
+   41  mv sources.list oldsources.list
+   42  sudo mv sources.list oldsources.list
+   43  sudo vim sources.list
+   44  sudo apt update
+   45  sudo apt upgradew
+   46  sudo apt upgrade
+   47  cd /usr/share/xsessions/
+   48  ll
+   49  cat openbox.desktop 
+   50  sudo vim qtile.desktop
+   51  ll
+   52  cp qtile.desktop ~/Documents/ux550ve-setup/
+   53  cd ~/Documents/
+   54  ll
+   55  cd lub
+   56  ll
+   57  cd ..
+   58  cd /media/save/2022BackUpRedOs/
+   59  ll
+   60  cd home/ubuntu/Documents/
+   61  ll
+   62  cd ..
+   63  ll
+   64  cp -rv  ./alacritty/ ~/
+   65  pwd
+   66  cd ~
+   67  cd alacritty/
+   68  ll
+   69  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   70  sudo apt install curl
+   71  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   72  sudo apt install feh
+   73  source $HOME/.cargo/env && rustup default nightly && rustup update
+   74  sudo apt install cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3 gzip
+   75  sudo cp target/release/alacritty /usr/local/bin
+   76  sudo cp extra/logo/alacritty-term.svg /usr/share/pixmaps/Alacritty.svg
+   77  sudo desktop-file-install extra/linux/Alacritty.desktop
+   78  sudo update-desktop-database
+   79  alacritty
+   80  cd Documents/
+   81  ll
+   82  cd ux550ve-setup/
+   83  ll
+   84  cat 
+   85  cat setup.txt 
+   86  ll
+   87  cat q
+   88  cat qtile.desktop 
+   89  vim setup.txt 
+   90  clear
+   91  sudo apt update
+   92  sudo apt upgrade
+   93  cd Documents/
+   94  ll
+   95  mkdir script
+   96  cd script/
+   97  ll
+   98  touch installer.sh
+   99  vim installer.sh 
+  100  cat installer.sh 
+  101  cd ..
+  102  cp ubuntu/Documents/script/installer.sh ./
+  103  sudo cp ubuntu/Documents/script/installer.sh ./
+  104  sudo chmod +x ./installer.sh 
+  105  sudo bash installer.sh 
+  106  sudo apt install python3.6
+  107  sudo apt-get install python3.6
+  108  vim installer.sh 
+  109  sudo vim installer.sh 
+  110  sudo bash installer.sh 
+  111  firefox 
+  112  cd Documents/ux550ve-setup/
+  113  l
+  114  ll
+  115  cat setup.txt 
+  116  cd ..
+  117  ll
+  118  cd ..
+  119  ll
+  120  cat .bashrc 
+  121  qtile start
+  122  cd /usr/share/xsessions/
+  123  ll
+  124  cat qtile.desktop 
+  125  cd ~
+  126  pip install xcffib
+  127  pip install qtile
+  128  cd /usr/share/xsessions/
+  129  cat openbox.desktop 
+  130  cat qtile.desktop 
+  131  qtile start
+  132  firefox
+  133  cat .profile 
+  134  sudo vim .profile 
+  135  cat .profile 
+  136  ll ./Documents/wall/
+  137  clear
+  138  ll
+  139  cd .config/
+  140  ll
+  141  cd qtile/
+  142  ll
+  143  cd ../..
+  144  cat .profile 
+  145  echo $HOME
+  146  cd /usr/share/xsessions/
+  147  ll
+  148  sudo vim qtile.desktop 
+  149  firefox 
+  150  sudo mount /dev/sda4 /media/save/
+  151  cd /media/save/2022
+  152  cd /media/save/
+  153  ll
+  154  cd 2022ThisUbuntu/
+  155  ll
+  156  l -a
+  157  cd Documents/
+  158  ll
+  159  cd 2022/
+  160  ll
+  161  cd notes/
+  162  ll
+  163  cd ../
+  164  pwd
+  165  cd ../..
+  166  cd 2022
+  167  cd 2022BackUpRedOs/
+  168  ll
+  169  cd home/
+  170  ll
+  171  cd ubuntu/
+  172  ll
+  173  cat .profile 
+  174  pwd
+  175  cd Documents/
+  176  ll
+  177  cd ux550ve-setup/
+  178  l
+  179  ll
+  180  cat setup.txt 
+  181  firefox 
+  182  sudo apt update
+  183  sudo apt upgrade
+  184  pip3 install xcffib
+  185  sudo pip3 install xcffib
+  186  sudo pip3 install qtile
+  187  cd Documents/
+  188  ll
+  189  cd ux550ve-setup/
+  190  ll
+  191  vim setup.txt 
+  192  sudo cp ./qtile.desktop /usr/share/xsessions/
+  193  cd ../
+  194  ll
+  195  sudo vim installer.sh 
+  196  cd ubuntu/Documents/
+  197  ll
+  198  cd script/
+  199  ll
+  200  vim sources.list
+  201  cp /etc/apt/sources.list ./sources.old
+  202  ll
+  203  cp ./sources.list /etc/apt/
+  204  sudo cp ./sources.list /etc/apt/
+  205  ll
+  206  cat installer.sh 
+  207  cd ../
+  208  cd ux550ve-setup/
+  209  ll
+  210  vim setup.txt 
+  211  cat setup.txt 
+  212  cd Documents/
+  213  ll
+  214  cd ..
+  215  ll
+  216  cd ../
+  217  ll
+  218  chmod +x installer.sh 
+  219  sudo chmod +x installer.sh 
+  220  bash installer.sh 
+  221  vim installer.sh 
+  222  cat installer.sh 
+  223  bash installer.sh 
+  224  ll
+  225  cd /media/
+  226  ll
+  227  mkdir
+  228  mkdir save
+  229  sudo mkdir save
+  230  lsblk
+  231  sudo mount /dev/sda4 /media/save/
+  232  cd save/
+  233  ll
+  234  cd 2022BackUpRedOs/
+  235  ll
+  236  cd home/
+  237  ll
+  238  cd ubuntu/
+  239  ll
+  240  cp -r ./.config/ ~/
+  241  sudo cp -r ./.config/ ~/
+  242  cd alacritty/
+  243  pwd
+  244  sudo cp target/release/alacritty /usr/local/bin
+  245  sudo cp extra/logo/alacritty-term.svg /usr/share/pixmaps/Alacritty.svg
+  246  sudo desktop-file-install extra/linux/Alacritty.desktop
+  247  sudo update-desktop-database
+  248  cd ..
+  249  cp ./.profile ~
+  250  cp ./.bashrc  ~
+  251  sudo apt install chromium-browser
+  252  firefox
+  253  cat .profile 
+  254  sudo apt install fehj
+  255  sudo apt install feh
+  256  cd Documents/
+  257  l
+  258  ll
+  259  cd stepmaniaSetup/
+  260  ll
+  261  vim notes.txt
+  262  ll
+  263  cd Documents/ux550ve-setup/
+  264  ll
+  265  vim setup.txt 
+  266  :wq
+  267  cd ..
+  268  mkdir stepmaniaSetup
+  269  cd stepmaniaSetup/
+  270  sudo apt install stepmania
+  271  apt search stepmania
+  272  chromium
+  273  sudo apt-get install flatpak
+  274  sudo
+  275  sudo ls
+  276  ll
+  277  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+  278  sudo ll
+  279  sudo ls
+  280  sudo cp
+  281  flatpak install flathub com.stepmania.StepMania
+  282  find / -name stepmania
+  283  sudo find / -name stepmania
+  284  sudo ll
+  285  sudo ls
+  286  cd /var/lib/flatpak/app/com.stepmania.StepMania/x86_64/stable/7486a3bd21d61707f686b7b00cdc0fcb5bc823128bc65536e5d2664adf8fddd2/files/bin/
+  287  ll
+  288  sudo vim stepmania 
+  289  ll
+  290  cd /var/lib/flatpak/app/com.stepmania.StepMania/x86_64/stable/7486a3bd21d61707f686b7b00cdc0fcb5bc823128bc65536e5d2664adf8fddd2/files/stepmania-5.1/
+  291  ./stepmania 
+  292  cd /var/lib/flatpak/app/com.stepmania.StepMania/x86_64/stable/7486a3bd21d61707f686b7b00cdc0fcb5bc823128bc65536e5d2664adf8fddd2/files/bin/
+  293  ./stepmania
+  294  sudo apt-get install libjpeg62
+  295  ./stepmania
+  296  cd /var/lib/flatpak/app/com.stepmania.StepMania/x86_64/stable/7486a3bd21d61707f686b7b00cdc0fcb5bc823128bc65536e5d2664adf8fddd2/files/stepmania-5.1/
+  297  ./stepmania 
+  298  ll
+  299  ./stepmania 
+  300  sudo apt install pcre
+  301  apt search pcre
+  302  flatpak uninstall com.stepmania.StepMania
+  303  sudo flatpak repair
+  304  sudo apt-get remove --autoremove flatpak
+  305  sudo apt-get purge flatpak
+  306  sudo add-apt-repository ppa:kakurasan/stepmania5
+  307  sudo apt update
+  308  sudo apt upgrade
+  309  sudo apt install stepmania
+  310  find / -name stepmania
+  311  sudo find / -name stepmania
+  312  cd /usr/share/games/stepmania/
+  313  l
+  314  ll
+  315  cp -r ~/Downloads/Hard ./Songs/
+  316  sudo cp -r ~/Downloads/Hard ./Songs/
+  317  stepmania 
+  318  PWD
+  319  pwd
+  320  sudo apt install nodejs
+  321  npm install npm@latest -g
+  322  sudo apt install npm
+  323  npm install npm@latest -g
+  324  sudo npm install npm@latest -g
+  325  cd Documents/
+  326  cd node/
+  327  ll
+  328  node forMulti.js 
+  329  xrandr --output eDP-1 --brightness 0.6
+  330  xrandr --output eDP-1 --brightness 0.7
+  331  cd ~/Downloads/
+  332  ll
+  333  curl https://search.stepmaniaonline.net/link/Dance%20Dance%20Revolution%201st%20Mix.zip
+  334  unzip 'DDR Classics.zip' 
+  335  ll
+  336  unzip hard.zip 
+  337  ll
+  338  sudo unzip hard.zip 
+  339  cd Hard\ Songs\ Megapack\ Volume\ 1/
+  340  ll
+  341  cd ..
+  342  mv Hard\ Songs\ Megapack\ Volume\ 1 Hard
+  343  ll
+  344  chromium
+  345  firefox
+  346  cd /usr/share/games/stepmania/
+  347  stepmania 
+  348  stepmania 1280*170
+  349  shutdown -h now
+  350  stepmania 
+  351  [A
+  352  stepmania 
+  353  alsamixer scontrols
+  354  cd Downloads/
+  355  curl -O ftp://192.168.199.141:2121/Download/exp.deb
+  356  ll
+  357  sudo dpkg -i exp.deb 
+  358  expressvpn
+  359  expressvpn connect japan
+  360  expressvpn activate
+  361  expressvpn connect japan
+  362  expressvpn connect 
+  363  expressvpn disconnect 
+  364  expressvpn connect france
+  365  expressvpn disconnect 
+  366  curl -O ftp://192.168.199.141:2121/Download/nord.deb
+  367  sudo dpkg -i nord.deb 
+  368  sudo apt-get install ./nord.deb 
+  369  sudo apt-get upgrade 
+  370  sudo apt-get install nordvpn
+  371  sudo apt-get install ./nordvpn-release_1.0.0_all.deb 
+  372  mv nord.deb nordvpn-release_1.0.0_all.deb
+  373  sudo apt-get install ./nordvpn-release_1.0.0_all.deb 
+  374  sudo apt-get update
+  375  sudo apt-get install nordvpn
+  376  expressvpn disconnect 
+  377  expressvpn connect japan
+  378  sudo apt-get install nordvpn
+  379  expressvpn disconnect 
+  380  expressvpn connect japan
+  381  expressvpn connect singapore
+  382  expressvpn connect france
+  383  sudo apt-get install nordvpn
+  384  expressvpn disconnect 
+  385  nordvpn
+  386  nordvpn login
+  387  usermod -aG nordvpn $USER
+  388  sudo usermod -aG nordvpn $USER
+  389  nordvpn login
+  390  chromium
+  391  lsblk
+  392  sudo mount /dev/sda4 /media/save/
+  393  cd /media/save/
+  394  ll
+  395  cd 2022BackUpRedOs/
+  396  ll
+  397  cd home/
+  398  ll
+  399  cd ubuntu/
+  400  ll
+  401  cd important/
+  402  ll
+  403  cp top10cities.mp4 ~/Documents/important/
+  404  sudo cp top10cities.mp4 ~/Documents/important/
+  405  cd /media/veracrypt7/
+  406  ll
+  407  cd p
+  408  ll
+  409  cat planetscale.txt 
+  410  firefox
+  411  sudo apt  install curl
+  412  ll
+  413  cd mdp/
+  414  ll
+  415  cd INFORMATION/
+  416  ll
+  417  cat DP.txt 
+  418  cd ..
+  419  ll
+  420  cd mdp/INFORMATION/
+  421  vim sw.txt 
+  422  cd ..
+  423  cat planetscale.txt 
+  424  grep nordvpn
+  425  grep ./ nordvpn
+  426  grep nordvpn  ./
+  427  grep -r nordvpn  ./
+  428  cd mdp/INFORMATION/
+  429  vim sw.txt 
+  430  cd Documents/
+  431  ll
+  432  cd notes/
+  433  ll
+  434  vim plan.txt
+  435  stepmania 
+  436  expressvpn connect singapore
+  437  expressvpn connect japan
+  438  expressvpn disconnect 
+  439  sudo apt install veracrypt
+  440  sudo wget https://launchpad.net/veracrypt/trunk/1.24-update7/+download/veracrypt-1.24-Update7-Ubuntu-20.04-amd64.deb
+  441  ll
+  442  rm veracrypt-1.24-Update7-Ubuntu-20.04-amd64.deb 
+  443  cd Downloads/
+  444  sudo wget https://launchpad.net/veracrypt/trunk/1.24-update7/+download/veracrypt-1.24-Update7-Ubuntu-20.04-amd64.deb
+  445  ll
+  446  sudo apt-get install ./veracrypt-1.24-Update7-Ubuntu-20.04-amd64.deb
+  447  ll
+  448  veracrypt
+  449  ll
+  450  cd Documents/
+  451  ll
+  452  cd notes/
+  453  ll
+  454  vim plan.txt 
+  455  veracrypt
+  456  nordvpn login
+  457  nordvpn connect
+  458  nordvpn login
+  459  chromium
+  460  cd /media/veracrypt7/p/mdp/INFORMATION/
+  461  vim se
+  462  vim sw.txt 
+  463  nordvpn connect
+  464  nordvpn login
+  465  nordvpn connect
+  466  chromium
+  467  veracrypt
+  468  xrandr --output eDP-1 --brightness 0.7
+  469  expressvpn disconnect 
+  470  stepmania
+  471  alsamixer scontrols
+  472  chromium
+  473  cd notes/
+  474  ll
+  475  cd ..
+  476  rm -r notes/
+  477  cd Documents/
+  478  cd notes/
+  479  ll
+  480  vim plan.txt 
+  481  vim objectsToMove.txt
+  482  ll
+  483  vim tyq.txt 
+  484  cd Documents/
+  485  ll
+  486  cd notes/
+  487  ll
+  488  vim t
+  489  cat t
+  490  cat tyq.txt 
+  491  vim tyq.txt 
+  492  ll
+  493  rm -r lub/
+  494  sudo rm -r lub/
+  495  sudo rm -r ux550ve-setup/
+  496  ll
+  497  rm -r node/
+  498  rm -r next/
+  499  sudo rm -r next
+  500  sudo rm -r important/
+  501  clear
+  502  ll
+  503  cd Documents/
+  504  ll
+  505  cd nod
+  506  cd node/
+  507  KK
+  508  LL
+  509  ll
+  510  time ll
+  511  time node forMulti.js 
+  512  vim forMulti.js 
+  513  time node forMulti.js 
+  514  vim forMulti.js 
+  515  time node forMulti.js 
+  516  vim forMulti.js 
+  517  time node forMulti.js 
+  518  vim forMulti.js 
+  519  time node forMulti.js 
+  520  vim forMulti.js 
+  521  time node forMulti.js 
+  522  vim forMulti.js 
+  523  time node forMulti.js 
+  524  shutdown -h now
+  525  npm -v
+  526  node -v
+  527  npm install -g n
+  528  sudo npm install -g n
+  529  sudo n stable
+  530  node -v
+  531  android
+  532  stepmania 
+  533  alsamixer scontrols
+  534  xrandr --output eDP-1 --brightness 0.7
+  535  cd Documents/
+  536  ll
+  537  cd notes/
+  538  ll
+  539  sudo rm tyq.txt 
+  540  rm tyq.txt 
+  541  ll
+  542  rm t
+  543  ll
+  544  clear
+  545  ll
+  546  cat plan.txt 
+  547  cd Downloads/
+  548  ll
+  549  vlc
+  550  vlc DPS07E31.mp3 
+  551  alsamixer scontrols
+  552  stepmania
+  553  cd Downloads/
+  554  ll
+  555  tar -xvzf android-studio-2021.3.1.16-linux.tar.gz 
+  556  ll
+  557  cd android-studio/
+  558  ll
+  559  cat Install-Linux-tar.txt 
+  560  cd ..
+  561  ll
+  562  cp -r android-studio ../
+  563  rm -r android-studio
+  564  cd ..
+  565  ll
+  566  cd android-studio/
+  567  ll
+  568  cat Install-Linux-tar.txt 
+  569  ll
+  570  cd bin
+  571  ./studio.sh 
+  572  chromium
+  573  npm -v
+  574  sudo npm install -g react-native-cli
+  575  sudo apt-get install lib32stdc++6 lib32z1 openjdk-7-jdk
+  576  apt search opnjdk
+  577  apt search openjdk
+  578  sudo apt-get install lib32stdc++6 lib32z1 openjdk-8-jdk
+  579  export ANDROID_HOME=/YOUR/LOCAL/ANDROID/SDK
+  580  export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+  581  cd Documents/notes/
+  582  ll
+  583  cat plan.txt 
+  584  chromium
+  585  cd Documents/notes/
+  586  ll
+  587  vim plan.txt 
+  588  shutdown -h now
+  589  cd Documents/
+  590  ll
+  591  cd notes
+  592  ll
+  593  vim trade.txt
+  594  cat trade.txt 
+  595  cd Documents/notes/
+  596  vim trade.txt 
+  597  chromium
+  598  alsamixer scontrols
+  599  stepmania
+  600  alsamixer scontrols
+  601  stepmania
+  602  xrandr --output eDP-1 --brightness 0.8
+  603  stepmania
+  604  chromium
+  605  stepmania
+  606  cd Documents/node/
+  607  ll
+  608  time node forMulti.js 
+  609  shutdown -h now
+  610  cd Documents/notes/
+  611  ll
+  612  cat test.txt 
+  613  clear
+  614  chromium
+  615  ll
+  616  clear
+  617  ll
+  618  vim plan.txt 
+  619  xrandr --output eDP-1 --brightness 0.6
+  620  xrandr --output eDP-1 --brightness 0.4
+  621  shutdown -h now
+  622  free -h
+  623  echo $HOME
+  624  cd Android
+  625  cd Sdk/
+  626  ll
+  627  cd ..
+  628  vim .bashrc 
+  629  vim .profile 
+  630  cd Documents/reactNative/MyProject/
+  631  npx reac-native run-android
+  632  npx react-native run-android
+  633  sudo npx react-native run-android
+  634  cd AndroidStudioProjects/
+  635  cd rn2
+  636  npx react-native run-android
+  637  npm uninstall -g react-native-cli @react-native-community/cli
+  638  sudo npm uninstall -g react-native-cli @react-native-community/cli
+  639  cd Documents/
+  640  ll
+  641  mkdir reactNative
+  642  cd reactNative/
+  643  npx react-native init MyProject
+  644  npx react-native start
+  645  cd ..
+  646  cd reactNative/MyProject/
+  647  npx react-native start
+  648  clear
+  649  cd ..
+  650  ll
+  651  cd AndroidStudioProjects/
+  652  ll
+  653  mkdir rn
+  654  cd rn
+  655  cd ..
+  656  npx react-native init rn2
+  657  cd rn2
+  658  npx react-native run-android
+  659  npx react-native start
+  660  expressvpn connect japa
+  661  expressvpn disconnect 
+  662  cd AndroidStudioProjects/rn2/
+  663  ll
+  664  cd .bundle/
+  665  ll
+  666  cd ..
+  667  vim index.js 
+  668  cd android/
+  669  ll
+  670  cd ..
+  671  ll
+  672  clear
+  673  ll
+  674  vim App.js 
+  675  android-studio/
+  676  cd android-studio/
+  677  ll
+  678  cd bin/
+  679  ll
+  680  bash studio.sh
+  681  cleqr
+  682  clear
+  683  xrandr --output eDP-1 --brightness 0.5
+  684  cd Downloads/
+  685  ll
+  686  cd .config/qtile/
+  687  ll
+  688  vim config.py 
+  689  alsamixer scontrols
+  690  firefox
+  691  xrandr --output eDP-1 --brightness 0.5
+  692  xrandr --output eDP-1 --brightness 0.4
+  693  cd Documents/lub/
+  694  ll
+  695  cd firefox-ext/
+  696  ll
+  697  cd firefoxFlashAnzan_0.0.0.5/
+  698  ll
+  699  cd audio/
+  700  ll
+  701  vlc bip.wav 
+  702  cd ..
+  703  ll
+  704  cd js
+  705  ll
+  706  cd ,,
+  707  cd ..
+  708  grep -r ./ bip
+  709  grep -r bip ./
+  710  cd js
+  711  vim popup.js 
+  712  chromium
+  713  stepmania
+  714  ll
+  715  cd Documents/
+  716  ll
+  717  cd notes/
+  718  ll
+  719  clesa
+  720  rclesar
+  721  clear
+  722  ll
+  723  cat plan.txt 
+  724  chromium
+  725  sudo apt-get install openjdk-11-jre
+  726  chromium
+  727  clear
+  728  cd ..
+  729  ll
+  730  cd lub/
+  731  ll
+  732  cd firefox-ext/
+  733  ll
+  734  cd firefoxFlashAnzan_0.0.0.5/
+  735  ll
+  736  cd ..
+  737  owd
+  738  pwd
+  739  cd audio/
+  740  ll
+  741  vlc bip96ms.wav 
+  742  cvlc bip96ms.wav 
+  743  shutdown -h now
+  744  cd Documents/node
+  745  ll
+  746  time node 5Times7x1.js 
+  747  ll
+  748  time node 5Times3x2.js 
+  749  cd Documents/node/
+  750  ll
+  751  time node 5Times3x2.js 
+  752  cd ..
+  753  stepmania
+  754  clear
+  755  mkdir expo
+  756  cd expo/
+  757  ll
+  758  npm i -g expo-cli
+  759  sudo npm i -g expo-cli
+  760  npx create-expo-app mobileApp
+  761  cd mobileApp/
+  762  ll
+  763  cd ..
+  764  ll
+  765  cd ..
+  766  ll
+  767  cd AndroidStudioProjects/
+  768  LL
+  769  ll
+  770  npx create-expo-app mobileApp
+  771  expo start
+  772  cd mobileApp/
+  773  expo start
+  774  npm i @react-navigation/native
+  775  expo install react-native-screens react-native-safe-area-context
+  776  history > allInstall.txt
